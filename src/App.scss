@@ -1,0 +1,42 @@
+body, p {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  margin: 10px;
+
+  .TypePickerMainWrapper {
+    display: flex;
+    margin-bottom: 100px;
+
+    .TypePickerWrapper {
+      
+      .TypePicker {
+        display: flex;
+    
+        .Label {
+          margin-right: 5px;
+          
+          &.TypeLabel {
+            margin-left: 20px;
+          }
+        }
+      }
+
+      .TypePickerChildren {
+        margin-left: 10px;
+
+        .TypeElementArray {
+          display: flex;
+        }
+      }
+    }
+
+    pre {
+      margin: 100px;
+    }
+  }
+
+  
+}
